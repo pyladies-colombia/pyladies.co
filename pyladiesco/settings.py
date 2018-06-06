@@ -25,7 +25,7 @@ SECRET_KEY = 'bs9a7q%w-cy7i6dsb%a$-lc$47qen22x*bd1e)=j@9d)%@vh^-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pyladies.co', 'www.pyladies.co']
 
 
 # Application definition
