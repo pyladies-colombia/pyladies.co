@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  pyladiesco:
+    build: ./
+    command: python /webapp/manage.py runserver 0:8000
+    volumes:
+      - ./:/webapp
+    ports:
+      - "8000:8000"
